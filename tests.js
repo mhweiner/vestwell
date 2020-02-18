@@ -68,7 +68,7 @@ instr.test('test 6', Animation.animate(1, "R......."), [
   "........"
 ]);
 
-instr.test('test 7', Animation.animate(1, "......L"), [
+instr.test('test 7', Animation.animate(1, "R......L"), [
   "x......x",
   ".x....x.",
   "..x..x..",
