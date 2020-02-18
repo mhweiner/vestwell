@@ -7,7 +7,7 @@ export default class Animation {
    */
   static animate(speed, init) {
 
-    return getSnapshotStrings(getParticles(init), speed, init.length);
+    return getSnapshotStrings(getParticlesFromString(init), speed, init.length);
 
   }
 
@@ -18,7 +18,7 @@ export default class Animation {
  * @param str
  * @returns {Array}
  */
-function getParticles(str) {
+function getParticlesFromString(str) {
 
   let particles = [];
 
