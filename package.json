@@ -1,0 +1,14 @@
+{
+  "name": "vestwell",
+  "version": "1.0.0",
+  "description": "Test for VestWell by Marc Weiner",
+  "main": "Animation.js",
+  "scripts": {
+    "test": "node -r esm tests.js"
+  },
+  "author": "Marc Weiner (https://mhweiner.com)",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
